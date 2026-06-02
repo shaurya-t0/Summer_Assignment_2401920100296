@@ -43,5 +43,22 @@ Best Time to Buy and Sell Stock Solution
 
 
 
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int minPrice = INT_MAX;
+        int maxProfit = 0;
+        for(int i=0; i < prices.size(); i++){
+            int price=prices[i];
+            minPrice=min(minPrice,price);
+            int profit = price - minPrice;
+            maxProfit = max(maxProfit , profit);
+        }
+        return maxProfit;
+    }
+};
+
+
+
 
 
