@@ -1,4 +1,4 @@
-Two SUM solution 
+1.  Two SUM solution 
 
 
 class Solution {
@@ -20,7 +20,7 @@ public:
 
 
 
-Remove Duplicates from Sorted Array Solution 
+2.  Remove Duplicates from Sorted Array Solution 
 
 
 
@@ -39,7 +39,7 @@ public:
 };
 
 
-Best Time to Buy and Sell Stock Solution 
+3.  Best Time to Buy and Sell Stock Solution 
 
 
 
